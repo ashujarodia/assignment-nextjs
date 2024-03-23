@@ -80,9 +80,9 @@ export default function Home() {
 	const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 
 	return (
-		<main className={`min-h-screen ${isDarkMode ? 'bg-darkGray' : 'bg-customWhite'} `}>
+		<main className={`min-h-screen ${isDarkMode ? 'bg-darkGray' : 'bg-customWhite'} py-12`}>
 			{/* Toggle checkbox for theme */}
-			<label className='inline-flex items-center cursor-pointer fixed right-3 top-6 z-50'>
+			<label className='inline-flex items-center cursor-pointer absolute right-3 top-6 z-50'>
 				<input
 					type='checkbox'
 					value=''
